@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+}
+
+.Code-App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .Container{
+        width: 60%;
+        height: 35vh;
+        border-radius: 20px;
+        border: 1px solid red;
+        // .text{
+            padding: 60px;
+                p{
+                    font-size: 25px;
+                    font-weight: bold;
+                    display: block;
+                    text-align: left;
+                }
+                div{
+                    font-size: 20px;
+                    border: 3px solid black;
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+                button{
+                    margin-top: 40px;
+                    width: 100px;
+                    height: 50px; 
+                    border: 2px solid gray;
+                    border-radius: 10px;   
+                }
+        // }
+    }
+}

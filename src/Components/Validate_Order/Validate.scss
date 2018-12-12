@@ -1,0 +1,118 @@
+body{
+    box-sizing: border-box;
+}
+
+.Validate-App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .Container{
+        width: 60%;
+        height: 60vh;
+        border: 1px solid black;
+        .title{
+            // border: 1px solid red;
+            display: flex;
+            .name{
+                // border: 2px solid yellow;
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                p{
+                    text-align: left;
+                    padding-left: 20px;
+                }
+            }
+            .table{
+                // border: 3px solid blue;
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding-top: 10px;
+                .circle{
+                    border: 2px solid black;
+                    border-radius: 50%;
+                    width: 5vw;
+                    height: 5vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .search{
+            // border: 1px solid green;
+            padding: 10px;
+            display: flex;
+            input{
+                text-align: center;
+                width: 80%;
+                background: url(../../svg/search.svg);
+                background-repeat: no-repeat;
+            }
+        }
+        .menu{
+            // border: 1px solid blue;
+            .information{
+                display: flex;
+                #price{
+                    width: 40%;
+                    // border: 1px solid pink;
+                }
+                .add{
+                    display: flex;
+                    width: 100%;
+                    // border: 1px solid red;
+                    #dash{
+                        background: url(../../svg/dash.svg);
+                        width: 30%;
+                        // border: 1px solid peru;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 3vh;
+                    }
+                    #units{
+                        // border: 1px solid black;
+                        width: 40%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    #plus{
+                        background: url(../../svg/plus.svg);
+                        // border: 1px solid peru;
+                        width: 30%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 3vh;
+                    }
+                }
+                #total{
+                    width: 40%;
+                    // border: 1px solid pink;
+                }
+                #cancel{
+                    // border: 1px solid pink;
+                    background: url(../../svg/x.svg);
+                    width: 30%;
+                    height: 5vh;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 3vh;
+                }
+            }
+        }
+        button[type="submit"]{
+            width: 120px;
+            height: 50px;
+            border: 1px solid black;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+    }  
+}

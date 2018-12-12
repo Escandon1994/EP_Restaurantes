@@ -1,0 +1,50 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Code-App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Code-App .Container {
+  width: 60%;
+  height: 35vh;
+  border-radius: 20px;
+  border: 1px solid red;
+  padding: 60px;
+}
+
+.Code-App .Container p {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+}
+
+.Code-App .Container div {
+  font-size: 20px;
+  border: 3px solid black;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Code-App .Container button {
+  margin-top: 40px;
+  width: 100px;
+  height: 50px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=Code.css.map */
