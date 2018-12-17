@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Code.css';
 
-class Code extends Component {
+class Code_Waiter extends Component {
     render(){
         return(
             <div className="Code-App">
@@ -15,4 +15,4 @@ class Code extends Component {
     }
 }
 
-export default Code;
+export default Code_Waiter;

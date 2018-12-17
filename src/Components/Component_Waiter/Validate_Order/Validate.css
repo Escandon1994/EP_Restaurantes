@@ -92,7 +92,6 @@ body {
 .Validate-App .Container .search input {
   text-align: center;
   width: 80%;
-  background: url(../../../svg/search.svg);
   background-repeat: no-repeat;
 }
 
@@ -114,7 +113,6 @@ body {
 }
 
 .Validate-App .Container .menu .information .add #dash {
-  background: url(../../../svg/dash.svg);
   width: 30%;
   background-repeat: no-repeat;
   background-position: center;
@@ -135,7 +133,6 @@ body {
 }
 
 .Validate-App .Container .menu .information .add #plus {
-  background: url(../../../svg/plus.svg);
   width: 30%;
   background-repeat: no-repeat;
   background-position: center;
@@ -147,7 +144,6 @@ body {
 }
 
 .Validate-App .Container .menu .information #cancel {
-  background: url(../../../svg/x.svg);
   width: 30%;
   height: 5vh;
   background-repeat: no-repeat;

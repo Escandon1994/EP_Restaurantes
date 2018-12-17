@@ -1,22 +1,22 @@
 import React, {Component} from 'react';
 import './Register.css'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile,faMugHot,faSearch} from '@fortawesome/free-solid-svg-icons'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faFile,faMugHot,faSearch} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faFile,faMugHot,faSearch)
+// library.add(faFile,faMugHot,faSearch)
 
 
-class Register extends Component{
+class Register_Waiter extends Component{
     render(){
         return(
             <div className="Register-App">
                 <div className="Container">
                     <div className="Right">
                         <div className="Options">
-                            <div className="Top-Options Table"><FontAwesomeIcon icon="file" size="2x"/></div>
-                            <div className="Top-Options Bill"><FontAwesomeIcon icon="mug-hot" size="2x"/></div>
-                            <div className="Top-Options Search"><FontAwesomeIcon icon="search" size="2x"/></div>
+                            <div className="Top-Options Table"></div>
+                            <div className="Top-Options Bill"></div>
+                            <div className="Top-Options Search"></div>
                         </div>
                         <div className="Header">
                             <div className="Words" id="date">06/12/18</div>
@@ -42,4 +42,4 @@ class Register extends Component{
     }
 }
 
-export default Register;
+export default Register_Waiter;
